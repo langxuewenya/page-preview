@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkvue3_ts_cms"]=self["webpackChunkvue3_ts_cms"]||[]).push([[664],{3664:function(u,e,n){n.r(e),n.d(e,{default:function(){return f}});var t=n(6768);function r(u,e,n,r,s,c){return(0,t.uX)(),(0,t.CE)("div",null,"找不到页面")}var s=(0,t.pM)({name:"NotFoundPage",setup(){return{}}}),c=n(1241);const a=(0,c.A)(s,[["render",r]]);var f=a}}]);
+//# sourceMappingURL=664.7cb024f3.js.map
