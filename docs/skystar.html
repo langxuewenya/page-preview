@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>今晚，整片星空将为你一人闪烁</title>
+    <style></style>
+    <link rel="stylesheet" href="css/skystar.css" />
+  </head>
+  <body>
+    <video id="videofilm" poster="img/skystar2.jpg" autoplay muted loop>
+      <source src="video/showplay.mp4" type="video/mp4" />
+    </video>
+    <div class="textone">
+      <!-- <h1>look at the stars</h1> -->
+      look at the stars
+    </div>
+    <div class="texttwo">
+      look how they shine for u
+      <!-- <h1>look how they shine for u</h1> -->
+    </div>
+    <div class="textthree">
+      <h1></h1>
+    </div>
+    <audio id="audio" src="video/bgm.mp3" loop></audio>
+
+    <div class="container"></div>
+    <script src="js/skystar.js"></script>
+
+    <script>
+      window.onload = function () {
+        document.getElementById("audio").muted = false;
+        var audio = document.getElementById("audio");
+        audio.play().catch(function () {
+          document.body.addEventListener(
+            "click",
+            function () {
+              audio.play();
+            },
+            { once: true }
+          );
+        });
+      };
+    </script>
+  </body>
+</html>

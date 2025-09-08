@@ -1,2 +1,0 @@
-"use strict";(self["webpackChunkvue3_ts_cms"]=self["webpackChunkvue3_ts_cms"]||[]).push([[402],{3402:function(e,n,u){u.r(n),u.d(n,{default:function(){return o}});var r=u(6768);const s={class:"role"};function t(e,n,u,t,c,a){return(0,r.uX)(),(0,r.CE)("div",s,n[0]||(n[0]=[(0,r.Lk)("h2",null,"role",-1)]))}var c=(0,r.pM)({name:"RolePage",setup(){return{}}}),a=u(1241);const l=(0,a.A)(c,[["render",t]]);var o=l}}]);
-//# sourceMappingURL=402.4a936f93.js.map
